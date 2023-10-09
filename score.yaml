@@ -20,6 +20,10 @@ resources:
     type: dns
   myria:
     type: mysql
+  bucky:
+    type: s3
+  cachy:
+    type: redis
   route:
     type: route
     params:
